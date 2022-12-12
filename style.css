@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    width: 1140px;
+    margin: auto 0;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 76px;
+    align-items: center;
+}
+
+.nav-brand{
+    font-size: 24px;
+    color: brown;
+    font-weight: 400;
+}
+
+.nav-items{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav-link{
+    color: blueviolet;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+section.home{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-rows: 1fr;
+}
+h1.large-title{
+    font-size: 30px;
+    color: black;
+}
+
+p.text-muted{
+    font-size: 16px;
+    color: black;
+}
+
+.jumbotron image{
+    padding-top: 88px;
+}
